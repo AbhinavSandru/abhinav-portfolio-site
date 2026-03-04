@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhinav Sandru | Portfolio</title>
+  <meta name="description" content="Portfolio website for Abhinav Sandru — Software Developer, Cloud & Computer Vision." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-mark" aria-hidden="true">AS</span>
+        <span class="brand-name">Abhinav Sandru</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Toggle navigation</span>
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certs">Certifications</a>
+        <a class="btn btn-small" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">Software Developer • Cloud • Computer Vision • Agentic AI</p>
+          <h1>Building reliable systems and real‑time ML experiences.</h1>
+          <p class="lead">
+            I'm <strong>Abhinav Sandru</strong>, an M.S. CS student at UIC (CGPA 3.85) with experience in Agentic AI,
+            full‑stack development, and computer vision pipelines.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+          </div>
+
+          <ul class="hero-links" aria-label="Quick links">
+            <li><a href="mailto:abhinav.sandru@gmail.com">abhinav.sandru@gmail.com</a></li>
+            <li><a href="https://linkedin.com/in/abhinav-sandru-499612228" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/AbhinavSandru" target="_blank" rel="noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Highlights">
+          <div class="card">
+            <h2>Highlights</h2>
+            <ul class="bullets">
+              <li>Built an edge‑AI NVR with facial detection, cutting latency by <strong>30–50%</strong>.</li>
+              <li>Shipped an admin interface with Express.js + Tailwind to reduce manual setup & support load.</li>
+              <li>Optimized legacy transforms for a research web app, improving execution speed by <strong>100%+</strong>.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small" href="AbhinavSandruResume_20260301.pdf" download>Download Resume</a>
+              <a class="btn btn-small btn-ghost" href="#experience">See Experience</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="two-col">
+          <p>
+            I enjoy building end‑to‑end products that combine systems thinking with practical ML.
+            My recent work spans Agentic AI, real‑time computer vision, Unity/C# gameplay systems,
+            and web applications.
+          </p>
+          <div class="info-grid" role="list">
+            <div class="info" role="listitem">
+              <p class="label">Location</p>
+              <p>Chicago, United States</p>
+            </div>
+            <div class="info" role="listitem">
+              <p class="label">Education</p>
+              <p>M.S. Computer Science, UIC (08/2024 – 05/2026)</p>
+            </div>
+            <div class="info" role="listitem">
+              <p class="label">Citizenship</p>
+              <p>US Citizen</p>
+            </div>
+            <div class="info" role="listitem">
+              <p class="label">Interests</p>
+              <p>Cloud, Computer Vision, Full‑stack, Game AI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+          <article class="item">
+            <div class="item-head">
+              <h3>Associate Intern — CtrlS Cloud4C</h3>
+              <p class="meta">Feb 2024 – Apr 2024</p>
+            </div>
+            <ul class="bullets">
+              <li>Configured and managed virtual environments using VMware, Windows ADDS, and Linux administration protocols.</li>
+              <li>Gained hands‑on experience with cloud infrastructure architecture across AWS, Azure, and Google Cloud Platform.</li>
+            </ul>
+          </article>
+
+          <article class="item">
+            <div class="item-head">
+              <h3>Software Developer Intern — Vanix Technologies</h3>
+              <p class="meta">Jul 2023 – Feb 2024</p>
+            </div>
+            <ul class="bullets">
+              <li>Developed a hardware‑accelerated NVR utilizing edge AI for facial detection, reducing processing latency by 30–50%.</li>
+              <li>Built and deployed a full‑stack system management interface with Express.js and Tailwind CSS,
+                  reducing manual setup time and lowering support requests.</li>
+            </ul>
+          </article>
+
+          <article class="item">
+            <div class="item-head">
+              <h3>Research Intern — Pentagram Research Center</h3>
+              <p class="meta">Jun 2023 – Jul 2023</p>
+            </div>
+            <ul class="bullets">
+              <li>Re‑engineered Rajan and Inverse Rajan Transform algorithms and deployed them as a Python‑Flask web app with ChartJS visualizations.</li>
+              <li>Refactored the codebase to optimize time complexity, improving execution speed by over 100%.</li>
+            </ul>
+          </article>
+
+          <article class="item">
+            <div class="item-head">
+              <h3>IoT Developer Intern — Tek Certify Training Solutions</h3>
+              <p class="meta">Sep 2022 – Oct 2022</p>
+            </div>
+            <ul class="bullets">
+              <li>Designed smart mining safety uniforms integrating IoT sensors for hazardous gases (Methane, CO2) and vital signs.</li>
+              <li>Implemented secure data transmission protocols for real‑time telemetry dashboards.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="proj card">
+            <h3>Real‑Time Virtual Try‑On (Hairstyle + Clothing)</h3>
+            <p class="meta">Python • OpenCV • PyTorch • MediaPipe • SegFormer • KD‑Trees</p>
+            <ul class="bullets">
+              <li>Built a real‑time pipeline to swap t‑shirts and hairstyles from live video for an AR smart mirror experience.</li>
+              <li>Hybrid approach combining segmentation (SegFormer) with face/hand tracking (MediaPipe) per frame.</li>
+              <li>Reduced latency by replacing diffusion with geometric perspective transforms and custom pixel filling.</li>
+              <li>Occlusion handling via KDTree‑based inpainting for stable results during motion.</li>
+            </ul>
+          </article>
+
+          <article class="proj card">
+            <h3>Clone Phantom</h3>
+            <p class="meta">Unity • C# • ShaderLab • Physics • Game AI</p>
+            <ul class="bullets">
+              <li>Deterministic replay system recording transforms & inputs to spawn time‑delayed “clone” entities.</li>
+              <li>Custom VFX pipeline (volumetric clouds, energy barriers) optimized to maintain high FPS.</li>
+              <li>State‑based AI turret system + adaptive camera controllers for fluid gameplay transitions.</li>
+            </ul>
+          </article>
+
+          <article class="proj card">
+            <h3>Counterfeit Currency Note Detection</h3>
+            <p class="meta">OpenCV • Flask • Python • Kotlin • REST</p>
+            <ul class="bullets">
+              <li>End‑to‑end system for counterfeit detection with a Kotlin mobile UI and REST APIs.</li>
+              <li>Computer vision checks using adaptive thresholding and edge detection to verify latent images.</li>
+              <li>Validated across ₹100/₹200/₹500 denominations; addressed vertical noise structures.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="chips" aria-label="Skills list">
+          <span class="chip">Python</span>
+          <span class="chip">C</span>
+          <span class="chip">C#</span>
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">React</span>
+          <span class="chip">Bootstrap</span>
+          <span class="chip">Express.js</span>
+          <span class="chip">Tailwind</span>
+          <span class="chip">Flask</span>
+          <span class="chip">Django</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">Unity</span>
+          <span class="chip">OpenCV</span>
+          <span class="chip">PyTorch</span>
+          <span class="chip">ChartJS</span>
+          <span class="chip">Linux</span>
+          <span class="chip">VMware</span>
+          <span class="chip">AWS</span>
+          <span class="chip">Azure</span>
+          <span class="chip">GCP</span>
+          <span class="chip">Arduino</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs" class="section">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+            <p class="meta">Issued Feb 2026</p>
+          </article>
+          <article class="card">
+            <h3>Microsoft Certified: Azure Fundamentals</h3>
+            <p class="meta">Issued Sep 2025</p>
+          </article>
+        </div>
+
+        <h3 class="subhead">Professional Development</h3>
+        <ul class="bullets">
+          <li>Artificial Intelligence Ethics in Action (LearnQuest)</li>
+          <li>Innovation Through Design: Think, Make, Break, Repeat (The University of Sydney)</li>
+          <li>NDX Linux Essentials (Cisco Networking Academy)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="two-col">
+          <div>
+            <p class="lead">
+              Want to collaborate or chat about roles? The fastest way to reach me is email.
+            </p>
+            <div class="contact-actions">
+              <a class="btn" href="mailto:abhinav.sandru@gmail.com">Email Me</a>
+              <a class="btn btn-ghost" href="https://linkedin.com/in/abhinav-sandru-499612228" target="_blank" rel="noreferrer">Message on LinkedIn</a>
+            </div>
+            <p class="fine">
+              Or call: <a href="tel:+13128688522">+1 (312) 868‑8522</a>
+            </p>
+          </div>
+
+          <form class="form" id="copy-form">
+            <label>
+              <span>Quick message (copy to clipboard)</span>
+              <textarea id="quick-message" rows="6" placeholder="Hi Abhinav — I’d like to connect about..."></textarea>
+            </label>
+            <button class="btn" type="submit">Copy Message</button>
+            <p class="fine" id="copy-status" role="status" aria-live="polite"></p>
+            <p class="fine">
+              Note: this form doesn't send anything yet (static site). It just helps you draft a message quickly.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Abhinav Sandru</p>
+      <p class="fine">Built with plain HTML/CSS/JS. Host on GitHub Pages, Netlify, or Vercel.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
